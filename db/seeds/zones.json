@@ -1,0 +1,513 @@
+[
+  {
+    "version":        "6.2.x",
+
+    "zones": [
+      {
+        "continent":  "kalimdor",
+        "name":       "Ahn'Qiraj: The Fallen Kingdom",
+        "slug":       "ahn-qiraj-the-fallen-kingdom",
+        "expansion":  "cataclysm",
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [5695],
+        "levels":     null
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Ashenvale",
+        "slug":       "ashenvale",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [331],
+        "levels":     [20, 25]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Azshara",
+        "slug":       "azshara",
+        "expansion":  null,
+        "faction":    "horde",
+        "map_eid":    1,
+        "area_eids":  [16],
+        "levels":     [10, 20]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Azuremyst Isle",
+        "slug":       "azuremyst-isle",
+        "expansion":  "the-burning-crusade",
+        "faction":    "alliance",
+        "map_eid":    530,
+        "area_eids":  [3524],
+        "levels":     [1, 10]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Bloodmyst Isle",
+        "slug":       "bloodmyst-isle",
+        "expansion":  "the-burning-crusade",
+        "faction":    "alliance",
+        "map_eid":    530,
+        "area_eids":  [3525],
+        "levels":     [10, 20]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Darkshore",
+        "slug":       "darkshore",
+        "expansion":  null,
+        "faction":    "alliance",
+        "map_eid":    1,
+        "area_eids":  [148],
+        "levels":     [10, 20]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Desolace",
+        "slug":       "desolace",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [405],
+        "levels":     [30, 40]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Durotar",
+        "slug":       "durotar",
+        "expansion":  null,
+        "faction":    "horde",
+        "map_eid":    1,
+        "area_eids":  [14],
+        "levels":     [1, 10]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Dustwallow Marsh",
+        "slug":       "dustwallow-marsh",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [15],
+        "levels":     [35, 40]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Felwood",
+        "slug":       "felwood",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [361],
+        "levels":     [45, 50]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Feralas",
+        "slug":       "feralas",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [357],
+        "levels":     [35, 40]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "GM Island",
+        "slug":       "gm-island",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [876],
+        "levels":     null
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Molten Front",
+        "slug":       "molten-front",
+        "expansion":  "cataclysm",
+        "faction":    "contested",
+        "map_eid":    861,
+        "area_eids":  [5733],
+        "levels":     [85, 85]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Moonglade",
+        "slug":       "moonglade",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [493],
+        "levels":     [15, 15]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Mount Hyjal",
+        "slug":       "mount-hyjal",
+        "expansion":  "catalysm",
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [616],
+        "levels":     [80, 82]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Mulgore",
+        "slug":       "mulgore",
+        "expansion":  null,
+        "faction":    "horde",
+        "map_eid":    1,
+        "area_eids":  [215],
+        "levels":     [1, 10]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Northern Barrens",
+        "slug":       "northern-barrens",
+        "expansion":  null,
+        "faction":    "horde",
+        "map_eid":    1,
+        "area_eids":  [17],
+        "levels":     [10, 20]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Silithus",
+        "slug":       "silithus",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [1377],
+        "levels":     [55, 60]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Southern Barrens",
+        "slug":       "southern-barrens",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [4709],
+        "levels":     [30, 35]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Stonetalon Mountains",
+        "slug":       "stonetalon-mountains",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [406],
+        "levels":     [25, 30]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Tanaris",
+        "slug":       "tanaris",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [440],
+        "levels":     [45, 50]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Teldrassil",
+        "slug":       "teldrassil",
+        "expansion":  null,
+        "faction":    "alliance",
+        "map_eid":    1,
+        "area_eids":  [141],
+        "levels":     [1, 10]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Thousand Needles",
+        "slug":       "thousand-needles",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [400],
+        "levels":     [40, 45]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Uldum",
+        "slug":       "uldum",
+        "expansion":  "cataclysm",
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [5034],
+        "levels":     [83, 84]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Un'Goro Crater",
+        "slug":       "ungoro-crater",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [490],
+        "levels":     [50, 55]
+      },
+
+      {
+        "continent":  "kalimdor",
+        "name":       "Winterspring",
+        "slug":       "winterspring",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    1,
+        "area_eids":  [618],
+        "levels":     [50, 55]
+      },
+
+      {
+        "continent":  "vashjir",
+        "name":       "Abyssal Depths",
+        "slug":       "abyssal-depths",
+        "expansion":  "cataclysm",
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [5146],
+        "levels":     [80, 82]
+      },
+
+      {
+        "continent":  "vashjir",
+        "name":       "Shimmering Expanse",
+        "slug":       "shimmering-expanse",
+        "expansion":  "cataclysm",
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [5144],
+        "levels":     [80, 82]
+      },
+
+      {
+        "continent":  "vashjir",
+        "name":       "Kelp'thar Forest",
+        "slug":       "kelpthar-forest",
+        "expansion":  "cataclysm",
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [4815],
+        "levels":     [80, 82]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Arathi Highlands",
+        "slug":       "arathi-highlands",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [45],
+        "levels":     [25, 30]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Badlands",
+        "slug":       "badlands",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [3],
+        "levels":     [44, 48]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Blackrock Mountain",
+        "slug":       "blackrock-mountain",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [25],
+        "levels":     [50, 60]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Blasted Lands",
+        "slug":       "blasted-lands",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [4],
+        "levels":     [55, 60]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Burning Steppes",
+        "slug":       "burning-steppes",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [46],
+        "levels":     [49, 52]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Deadwind Pass",
+        "slug":       "deadwind-pass",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [41],
+        "levels":     [50, 60]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Deeprun Tram",
+        "slug":       "deeprun-tram",
+        "expansion":  null,
+        "faction":    "alliance",
+        "map_eid":    369,
+        "area_eids":  [2257],
+        "levels":     null
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Dun Morogh",
+        "slug":       "dun-morogh",
+        "expansion":  null,
+        "faction":    "alliance",
+        "map_eid":    0,
+        "area_eids":  [1],
+        "levels":     [1, 10]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Duskwood",
+        "slug":       "duskwood",
+        "expansion":  null,
+        "faction":    "alliance",
+        "map_eid":    0,
+        "area_eids":  [10],
+        "levels":     [20, 25]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Eastern Plaguelands",
+        "slug":       "eastern-plaguelands",
+        "expansion":  null,
+        "faction":    "contested",
+        "map_eid":    0,
+        "area_eids":  [139],
+        "levels":     [40, 45]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Elwynn Forest",
+        "slug":       "elwynn-forest",
+        "expansion":  null,
+        "faction":    "alliance",
+        "map_eid":    0,
+        "area_eids":  [12],
+        "levels":     [1, 10]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Eversong Woods",
+        "slug":       "eversong-woods",
+        "expansion":  "the-burning-crusade",
+        "faction":    "horde",
+        "map_eid":    530,
+        "area_eids":  [3430],
+        "levels":     [1, 10]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Ghostlands",
+        "slug":       "ghostlands",
+        "expansion":  "the-burning-crusade",
+        "faction":    "horde",
+        "map_eid":    530,
+        "area_eids":  [3433],
+        "levels":     [10, 20]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Gilneas",
+        "slug":       "gilneas",
+        "expansion":  "cataclysm",
+        "faction":    "alliance",
+        "map_eid":    654,
+        "area_eids":  [4714],
+        "levels":     [1, 12]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Hillsbrad Foothills",
+        "slug":       "hillsbrad-foothills",
+        "expansion":  null,
+        "faction":    "horde",
+        "map_eid":    0,
+        "area_eids":  [267],
+        "levels":     [20, 25]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Isle of Quel'Danas",
+        "slug":       "isle-of-queldanas",
+        "expansion":  "the-burning-crusade",
+        "faction":    "contested",
+        "map_eid":    530,
+        "area_eids":  [4080],
+        "levels":     [70, 70]
+      },
+
+      {
+        "continent":  "eastern-kingdoms",
+        "name":       "Loch Modan",
+        "slug":       "loch-modan",
+        "expansion":  null,
+        "faction":    "alliance",
+        "map_eid":    0,
+        "area_eids":  [38],
+        "levels":     [10, 20]
+      }
+    ]
+  }
+]

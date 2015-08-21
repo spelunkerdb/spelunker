@@ -1,0 +1,17 @@
+<%
+  page[:id] = :zones
+  page[:title] = 'Zones'
+%>
+
+<%= render(partial: 'zones/index/header') %>
+
+<table id="zones-index" class="table table-striped" data-datatables-href="<%= api_url('/zones.json') %>">
+  <thead>
+    <tr>
+      <th>Zone</th>
+      <th>Levels</th>
+      <th>Continent</th>
+      <th>Faction</th>
+    </tr>
+  </thead>
+</table>

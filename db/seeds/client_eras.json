@@ -1,0 +1,37 @@
+[
+  {
+    "name":       "Vanilla",
+    "subdomain":  "vanilla",
+    "slug":       "1.x"
+  },
+
+  {
+    "name":       "The Burning Crusade",
+    "subdomain":  "tbc",
+    "slug":       "2.x"
+  },
+
+  {
+    "name":       "Wrath of the Lich King",
+    "subdomain":  "wotlk",
+    "slug":       "3.x"
+  },
+
+  {
+    "name":       "Catacylsm",
+    "subdomain":  "cata",
+    "slug":       "4.x"
+  },
+
+  {
+    "name":       "Mists of Pandaria",
+    "subdomain":  "mop",
+    "slug":       "5.x"
+  },
+
+  {
+    "name":       "Warlords of Draenor",
+    "subdomain":  "wod",
+    "slug":       "6.x"
+  }
+]

@@ -1,0 +1,14 @@
+<%
+  page[:id] = :creatures
+  page[:title] = 'Creatures'
+%>
+
+<%= render(partial: 'creatures/index/header') %>
+
+<table id="creatures-index" class="table table-striped" data-datatables-href="<%= api_url('/creatures.json') %>">
+  <thead>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </thead>
+</table>

@@ -1,0 +1,25 @@
+<%
+  page[:id] = :creatures
+  page[:title] = @creature.name
+%>
+
+<div class="record creature-record">
+  <div class="record-header">
+    <%= render(partial: 'creatures/record/header') %>
+  </div>
+
+  <div class="record-core">
+    <%= render(partial: 'creatures/record/core') %>
+  </div>
+
+  <div class="record-nav">
+    <%= render(partial: 'creatures/record/nav') %>
+  </div>
+
+  <div class="record-tabs">
+    <div class="tab-content">
+      <%= render(partial: 'creatures/record/tabs/stats') %>
+      <%= render(partial: 'creatures/record/tabs/instances') %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<%
+  page[:id] = :zones
+  page[:title] = @zone.name
+%>
+
+<div class="record zone-record">
+  <div class="record-header">
+    <%= render(partial: 'zones/record/header') %>
+  </div>
+
+  <div class="record-core">
+    <%= render(partial: 'zones/record/core') %>
+  </div>
+
+  <div class="record-nav">
+    <%= render(partial: 'zones/record/nav') %>
+  </div>
+
+  <div class="record-tabs">
+    <div class="tab-content">
+      <%= render(partial: 'zones/record/tabs/creatures') %>
+    </div>
+  </div>
+</div>

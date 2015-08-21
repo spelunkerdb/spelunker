@@ -1,0 +1,185 @@
+92 571 457
+93 646 517
+94 731 585
+95 827 662
+96 936 749
+97 1059 847
+98 1199 959
+99 1357 1086
+100 1536 1229
+101 1670 1336
+102 1804 1443
+103 1938 1550
+{
+  "version": "6.2.x",
+
+  "armor": [
+    {
+      "level":    90,
+      "classes":  [1, 2, 4],
+      "armor":    445
+    },
+
+    {
+      "level":    90,
+      "classes":  [8],
+      "armor":    356
+    },
+
+    {
+      "level":    91,
+      "classes":  [1, 2, 4],
+      "armor":    504
+    },
+
+    {
+      "level":    91,
+      "classes":  [8],
+      "armor":    403
+    },
+
+    {
+      "level":    92,
+      "classes":  [1, 2, 4],
+      "armor":    571
+    },
+
+    {
+      "level":    92,
+      "classes":  [8],
+      "armor":    457
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+
+    {
+      "level":    90,
+      "classes":  [],
+      "armor":    0
+    },
+  ]
+}

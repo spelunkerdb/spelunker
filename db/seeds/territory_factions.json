@@ -1,0 +1,26 @@
+[
+  {
+    "name":           "Alliance",
+    "slug":           "alliance"
+  },
+
+  {
+    "name":           "Horde",
+    "slug":           "horde"
+  },
+
+  {
+    "name":           "Contested",
+    "slug":           "contested"
+  },
+
+  {
+    "name":           "Sanctuary",
+    "slug":           "sanctuary"
+  },
+
+  {
+    "name":           "World PvP",
+    "slug":           "world-pvp"
+  }
+]

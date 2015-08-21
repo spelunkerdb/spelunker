@@ -1,0 +1,6 @@
+development:
+  adapter: postgresql
+  host: localhost
+  user: spelunker
+  database: spelunker_development
+  password: password

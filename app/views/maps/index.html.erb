@@ -1,0 +1,16 @@
+<%
+  page[:id] = :maps
+  page[:title] = 'Maps'
+%>
+
+<%= render(partial: 'maps/index/header') %>
+
+<table id="maps-index" class="table table-striped" data-datatables-href="<%= api_url('/maps.json') %>">
+  <thead>
+    <tr>
+      <th>EID</th>
+      <th>Type</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+</table>

@@ -1,0 +1,18 @@
+html, body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+body > .container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.pagination .paginate_button a {
+  min-width: 42px;
+  text-align: center;
+}
+
+.record .tab-pane {
+  padding-top: 30px;
+}

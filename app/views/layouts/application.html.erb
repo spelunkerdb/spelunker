@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      <% if page[:title] %><%= page[:title] %> | <% end %>
+      Spelunker
+    </title>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="/">Spelunker</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li<%= active_nav(:home) %>><a href="/">Home</a></li>
+            <li<%= active_nav(:zones) %>><a href="<%= targeted_url('/zones') %>">Zones</a></li>
+            <li<%= active_nav(:creatures) %>><a href="<%= targeted_url('/creatures') %>">Creatures</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <%= current_target.slug %> <span class="caret"></span>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Expansions</li>
+                <li><a href="/target/6.x?p=<%= request.original_fullpath %>">Warlords of Draenor</a></li>
+
+                <li role="separator" class="divider"></li>
+
+                <li class="dropdown-header">Versions</li>
+                <% current_target.level.era.versions.each do |client_version| %>
+                  <li><a href="/target/<%= client_version.slug %>?p=<%= request.original_fullpath %>"><%= client_version.slug %></a></li>
+                <% end %>
+
+                <% if current_target.level.version? || current_target.level.build? %>
+                  <li role="separator" class="divider"></li>
+
+                  <li class="dropdown-header">Builds</li>
+                  <% current_target.level.version.builds.each do |client_build| %>
+                    <li><a href="/target/<%= client_build.slug %>?p=<%= request.original_fullpath %>"><%= client_build.slug %></a></li>
+                  <% end %>
+                <% end %>
+              </ul>
+            </li>
+
+            <li><a href="https://github.com/spelunkerdb/spelunker" target="_blank">GitHub Project</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>

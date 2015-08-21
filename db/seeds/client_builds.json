@@ -1,0 +1,67 @@
+[
+  {
+    "era":            "6.x",
+    "version":        "6.2.x",
+    "patch":          "6.2.0.x",
+    "slug":           "6.2.0.20338",
+    "number":         20338,
+    "archive_type":   "CASC",
+    "released_on":    "2015-07-28",
+    "supported":      true
+  },
+
+  {
+    "era":            "6.x",
+    "version":        "6.2.x",
+    "patch":          "6.2.0.x",
+    "slug":           "6.2.0.20253",
+    "number":         20253,
+    "archive_type":   "CASC",
+    "released_on":    "2015-07-15",
+    "supported":      true
+  },
+
+  {
+    "era":            "6.x",
+    "version":        "6.2.x",
+    "patch":          "6.2.0.x",
+    "slug":           "6.2.0.20216",
+    "number":         20216,
+    "archive_type":   "CASC",
+    "released_on":    "2015-07-07",
+    "supported":      false
+  },
+
+  {
+    "era":            "6.x",
+    "version":        "6.2.x",
+    "patch":          "6.2.0.x",
+    "slug":           "6.2.0.20201",
+    "number":         20201,
+    "archive_type":   "CASC",
+    "released_on":    "2015-07-01",
+    "supported":      false
+  },
+
+  {
+    "era":            "6.x",
+    "version":        "6.2.x",
+    "patch":          "6.2.0.x",
+    "slug":           "6.2.0.20182",
+    "number":         20182,
+    "archive_type":   "CASC",
+    "released_on":    "2015-06-25",
+    "supported":      false
+  },
+
+  {
+    "era":            "6.x",
+    "version":        "6.2.x",
+    "patch":          "6.2.0.x",
+    "slug":           "6.2.0.20173",
+    "number":         20173,
+    "archive_type":   "CASC",
+    "released_on":    "2015-06-22",
+    "supported":      false
+  }
+]

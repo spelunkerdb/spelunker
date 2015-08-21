@@ -1,0 +1,49 @@
+[
+  {
+    "version":        "6.2.x",
+
+    "continents": [
+      {
+        "name":       "Eastern Kingdoms",
+        "slug":       "eastern-kingdoms",
+        "map_eid":    0
+      },
+
+      {
+        "name":       "Kalimdor",
+        "slug":       "kalimdor",
+        "map_eid":    1
+      },
+
+      {
+        "name":       "Outland",
+        "slug":       "outland",
+        "map_eid":    530
+      },
+
+      {
+        "name":       "Northrend",
+        "slug":       "northrend",
+        "map_eid":    571
+      },
+
+      {
+        "name":       "Pandaria",
+        "slug":       "pandaria",
+        "map_eid":    870
+      },
+
+      {
+        "name":       "Draenor",
+        "slug":       "draenor",
+        "map_eid":    1116
+      },
+
+      {
+        "name":       "Vash'jir",
+        "slug":       "vashjir",
+        "map_eid":    0
+      }
+    ]
+  }
+]
